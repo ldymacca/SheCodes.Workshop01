@@ -1,0 +1,9 @@
+if (age < 18 || gender === "male") {
+  alert("You can't apply to SheCodes 👩‍💻");
+}
+
+if (continent === "Europe" && language === "Portuguese") {
+  alert("You are from Portugal 🇵🇹");
+} else {
+  alert("You are not from Portugal");
+}
