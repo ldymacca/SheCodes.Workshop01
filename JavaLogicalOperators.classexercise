@@ -69,8 +69,16 @@
     <script>
       let country = prompt("What country are you from?");
 
-      if (country === "Brazil" || country === "Portugal") {
+      if (
+        country === "Brazil" ||
+        country === "Portugal" ||
+        country === "BRAZIL" ||
+        country === "bRAZIL" ||
+        country === "pORTUGAL"
+      ) {
         alert("You speak Portuguese");
+      } else {
+        alert("You don´t speak Portuguese");
       }
     </script>
   </body>
