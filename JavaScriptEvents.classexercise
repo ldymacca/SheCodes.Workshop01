@@ -70,7 +70,7 @@
       function contactUs() {
         let name = prompt("What is your first name?");
         let age = prompt("What is your age?");
-        let heading = document.querySelector("h1");
+        let h1 = document.querySelector("h1");
 
         if (age >= 18) {
           let h1 = document.querySelector("h1");
