@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes</title>
+    <style>
+      body {
+        background-image: url(https://t4.ftcdn.net/jpg/01/38/58/37/360_F_138583706_hpXPdwItGIQ6BjeCuOqYwKHMEqR3q7CO.jpg);
+      }
+      h1 {
+        color: rgb(236, 199, 255);
+        background-color: rgb(140, 29, 196);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 50px;
+        padding: 09px;
+      }
+
+      ul {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0px;
+      }
+
+      li {
+        list-style: none;
+        text-align: center;
+        padding: 10px 0;
+        display: inline-block;
+        margin: 0 15px;
+        width: fit-content;
+      }
+
+      img {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        padding: 10px 10px 60px 10px;
+        background-color: rgb(243, 243, 243);
+        border: 1px solid rgb(199, 198, 198);
+        border-radius: 4px;
+      }
+
+      a {
+        text-decoration: none;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      img:hover {
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      button {
+        display: block;
+        margin: 0 auto 30px auto;
+        padding: 20px 30px;
+        font-size: 20px;
+        color: rgb(78, 78, 78);
+        border: 1px solid silver;
+        border-style: double;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: rgb(140, 29, 196);
+        color: rgb(243, 243, 243);
+        font-weight: bold;
+      }
+
+      .p1 {
+        color: rgb(140, 29, 196);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .row {
+        display: table;
+        margin: 0 auto;
+      }
+
+      .one {
+        color: rgb(166, 42, 228);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+      .two {
+        color: rgb(175, 97, 214);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 25px;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+      .three {
+        color: rgb(192, 141, 218);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 25px;
+        font-weight: bolder;
+      }
+
+      .p3 {
+        color: azure;
+        background-color: rgba(151, 150, 150, 0.7);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 18px;
+        text-align: center;
+        font-weight: normal;
+      }
+
+      .bold-and-highlight1 {
+        color: rgb(140, 29, 196);
+        font-weight: bold;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        text-align: center;
+      }
+
+      .normal-text {
+        font-weight: bold;
+      }
+
+      .Text-under-image {
+        text-align: center;
+        margin: 0 auto;
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
+<html>
+  <body>
+    <h1>SheCodes</h1>
+    <hr />
+    <h2>
+      <p class="p1">Coding Workshops</p>
+    </h2>
+    <button>Apply now</button>
+    <div class="row">
+      <ul>
+        <li class="Coders-color">
+          <a
+            href="https://www.shecodes.io/students"
+            target="_blank"
+            class="one"
+          >
+            Coders
+          </a>
+        </li>
+
+        <li class="Courses-color">
+          <a
+            href="https://www.shecodes.io/workshops"
+            target="_blank"
+            class="two"
+          >
+            Courses
+          </a>
+        </li>
+
+        <li class="Stories-color">
+          <a
+            href="https://www.shecodes.io/stories"
+            target="_blank"
+            class="three"
+          >
+            Stories
+          </a>
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <p class="p3">For more information, please select the picture below:</p>
+    <a href="https://www.shecodes.io/contact" target="_blank">
+      <img
+        src="https://www.rd.com/wp-content/uploads/2020/04/GettyImages-858935040-scaled.jpg?resize=700,466"
+        width="400"
+      />
+    </a>
+    <div class="Text-under-image">
+      <span class="bold-and-highlight1"> Email: </span>
+      <span class="normal-text"> hello@shecodes.io </span>
+      <span class="bold-and-highlight1">Instagram: </span>
+      <span class="normal-text">@shecodes.io</span>
+    </div>
+  </body>
+</html>
